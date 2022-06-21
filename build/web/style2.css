@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 100%;
+}
+
+.container2 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card2 {
+    border: 1px solid #333;
+    height: 50rem;
+    width: 65rem;
+    position: relative;
+}
+
+.card2-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    background: #dfe6e9;
+    color: rgb(255, 115, 0);
+}
+
+.card2-footer input {
+    text-align: center;
+    color: rgb(255, 115, 0);
+}
